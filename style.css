@@ -148,3 +148,18 @@ label {
 textarea {
     width: 560px;
 }
+#botones {
+   padding: 3%;
+    
+}
+#botones input {
+    width: 30%;
+    background-color: crimson;
+    border: 1px solid crimson;
+    border-radius: 5px;
+    font-family: Street;
+    font-size: 18px;
+    color: white;
+    margin-left: 65px;
+    margin-bottom: 10px;
+}
