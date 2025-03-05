@@ -8,10 +8,10 @@ body {
     background-size: cover;
     font-family: Street;
     color: crimson;
-    text-align: center;
+  
 }
 h1 {
-
+    text-align: center;
     font-size: 46px;
 
 }
@@ -108,13 +108,29 @@ padding-bottom: 60%;
 }
 h2 {
     font-size: 28px;
+    text-align: center;
 }
 form {
     display: block;
     margin: auto;
     background-color: black;
-    height: 600px;
-    width: 1100px;
+    height: 1100px;
+    width: 600px;
     border: 10px outset rgb(237, 175, 5);
+    border-radius: 10px;
+}
+legend {
+    color: rgb(237, 175, 5);
+    font-size: 14px;
+}
+label {
+    color: white;
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
 }
 
+.inputA {
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
