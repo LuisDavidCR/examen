@@ -79,30 +79,72 @@
         <fieldset>
             <legend>Datos personales</legend>
 
-                
-                <label for="nombre">Nombre:</label>
-                <input type="text" name="nombre" required>
-                
-                
-                <label for="apellidos">Apellidos:</label>
-                <input type="text" name="apellidos" required>
-                
-                
-                <label for="direccion">Direccion Postal:</label>
-                <div id="cod">
 
-        
-                        <input class="inputA" type="text" name="Calle" placeholder="Calle">
-                        <input class="inputA" type="text" name="numeroCalle" placeholder="Nº" >
-                        <input class="inputA" type="text" name="piso" placeholder="Piso">
-                        <input type="text" name="codigoPostal" placeholder="Cod Postal">
-                        <input type="text" name="Ciudad" placeholder="Ciudad">
-        
-                    
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" required>
+
+
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" name="apellidos" required>
+
+
+            <label for="direccion">Direccion Postal:</label>
+            <div id="direccion">
+                <div class="cod">
+                    <input type="text" name="Calle" placeholder="Calle">
+                    <input type="text" name="numeroCalle" placeholder="Nº">
+                    <input type="text" name="piso" placeholder="Piso">
                 </div>
-                <label for="sexo">Sexo:</label>
+                <div class="cod">
+                    <input type="text" name="codigoPostal" placeholder="Cod Postal">
+                    <input type="text" name="Ciudad" placeholder="Ciudad">
+                </div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>sexo usuario</legend>
+            <div class="sexo">
                 <input type="radio" name="hombre">Hombre
+            </div>
+            <div class="sexo">
                 <input type="radio" name="mujer" id="">Mujer
+            </div>
+            <div class="sexo">
+                <input type="radio" name="indefinido">Prefiero No Decir
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend></legend>
+            <label for="fechaNac">Fecha Naciemiento
+                <input type="date">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Personajes</legend>
+            <label for="personaje">Selecciona el personaje: 
+                <select name="personaje" id="">
+                    <option value="Ken">Ken</option>
+                    <option value="Chunli">Chunli</option>
+                    <option value="Zangief">Zangief</option>
+                    <option value="Dhalsin">Dhalsin</option>
+                    <option value="Ryu">Ryu</option>
+                    <option value="ehonda">E Honda</option>
+                    <option value="blanka">Blanka</option>
+                    <option value="guille">Guille</option>
+                    <option value="thawk">T Hawk</option>
+                    <option value="Feilong">Feilong</option>
+                    <option value="Deejay">Dee Jay</option>
+                    <option value="cammy">ammy</option>
+                    <option value="Balrog">Balrog</option>
+                    <option value="vega">Vega</option>
+                    <option value="Sagat">Sagat</option>
+                    <option value="mbison">M Bison</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Comentarios</legend>
+            <textarea name="comentarios" id="" rows="10"></textarea>
         </fieldset>
     </form>
 </body>
